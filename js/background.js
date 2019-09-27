@@ -122,8 +122,8 @@ function setContextMenu(show) {
 
 function setChristmasIcon() {
     if (isChristmasPeriod() && preferences.showChristmasIcon) {
-        chrome.browserAction.setIcon({ "path": "/img/cookie_xmas_19x19.png" });
+        browser.browserAction.setIcon({ "path": "/img/cookie_xmas_19x19.png" });
     } else {
-        chrome.browserAction.setIcon({ "path": "/img/icon_19x19.png" });
+        browser.browserAction.setIcon({ "path": "/img/icon_19x19.png" });
     }
 }
